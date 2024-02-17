@@ -1,152 +1,154 @@
-<!--
-Name: Caleb Saliendra
-File: filename.html
-Date: January 23, 2024
-assignement 1.
--->
-
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Letterhead Example</title>
-  <style>
-    body {
-      max-width: 800px;
-      margin: 0 auto;
-    }
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Layout Task</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
 
-    .sender-column {
-      text-align: right;
-    }
-
-    h1 {
-      font-size: 1.5em;
-    }
-
-    h2 {
-      font-size: 1.3em;
-    }
-
-    p, ul, ol, dl, address {
-      font-size: 1.1em;
-    }
-
-    p, li, dd, dt, address {
-      line-height: 1.5;
-    }
-    a:link {
-      color: green;
-      background-color: transparent;
-      text-decoration: none;
-    }
-
-    a:visited {
-      color: darkblue;
-      background-color: transparent;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: red;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-
-    a:active {
-      color: yellow;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    </style>
-</head>
 <body>
 
-  <div class="sender-column">
-    <p><i><strong>Dr. Eleanor Gaye</strong></i></p>
-    <p><i>Awesome Science faculty<br>
-    University of Awesome<br>
-    Bobtown, CA 99999,<br>
-    USA<br>
-    <strong>Tel:</strong>123-456-7890<br>
-    <strong>Email:</strong> no_reply@example.com</i></p>
-    <p><i>20 January 2016</i></p>
+  <div class="logo">
+    My exciting website!
   </div>
 
-  <p><i><strong>Miss Eileen Dover</strong></i><br>
-    <i>4321 Cliff Top Edge<br>
-    Dover, CT9 XXX<br>
-    UK</i></p>
+  <nav>
+    <ul>
+      <li>
+        <a href="">Home</a>
+      </li>
+      <li>
+        <a href="">Blog</a>
+      </li>
+      <li>
+        <a href="">About us</a>
+      </li>
+      <li>
+        <a href="">Our history</a>
+      </li>
+      <li>
+        <a href="">Contacts</a>
+      </li>
+    </ul>
+  </nav>
 
-  <h1>Re: Eileen Dover university application</h1>
+  <main class="grid">
+    <article>
+      <h1>
+        An Exciting Blog Post
+      </h1>
+      <img src="balloon-sq6.jpg" alt="placeholder" class="feature">
+      <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon
+        azuki bean garlic.</p>
 
-  <p>Dear Eileen,</p>
+      <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens
+        dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
 
-  <p>Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your PhD next year. I will answer your questions one by one, in the following sections.</p>
+      <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon
+        napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko.
+        Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram
+        corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress.
+        Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
 
-  <h2>Starting dates</h2>
+      <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie
+        turnip leek lentil turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane fennel azuki
+        bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jícama salsify.</p>
 
-  <p>We are happy to accommodate you starting your study with us at any time; however it would suit us better if you could start at beginning of a semester; the start dates for each one are as follows:</p>
+      <p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle
+        seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
 
-  <ul>
-    <li>First semester: 9 September 2016</li>
-    <li>Second semester: 15 January 2017</li>
-    <li>Third semester: 2 May 2017</li>
-  </ul>
+    </article>
 
-  <p>Please let me know if this is ok, and if so which start date you would prefer.</p>
+    <aside>
+      <h2>
+        Photography
+      </h2>
+      <ul class="photos">
+        <li>
+          <img src="balloon-sq1.jpg" alt="placeholder">
+        </li>
+        <li>
+          <img src="balloon-sq2.jpg" alt="placeholder">
+        </li>
+        <li>
+          <img src="balloon-sq3.jpg" alt="placeholder">
+        </li>
+        <li>
+          <img src="balloon-sq4.jpg" alt="placeholder">
+        </li>
+        <li>
+          <img src="balloon-sq5.jpg" alt="placeholder">
+        </li>
+      </ul>
 
-  <p>You can find more information about <a href="https://www.w3schools.com/html/default.asp">important university dates</a> on our website.</p>
+    </aside>
+  </main>
+ <style>
+   body {
+     background-color: #fff;
+     color: #333;
+     margin: 0;
+     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+   }
 
-  <h2>Subjects of study</h2>
+   img {
+       max-width: 100%;
+       display: block;
+   }
 
-  <p>At the Awesome Science Faculty, we have a pretty open-minded research facility — as long as the subjects fall somewhere in the realm of science and technology. You seem like an intelligent, dedicated researcher, and just the kind of person we'd like to have on our team. Saying that, of the ideas you submitted we were most intrigued by are as follows, in order of priority:</p>
+   .logo {
+     font-size: 200%;
+     padding: 50px 20px;
+     margin: 0 auto;
+     max-width: 980px;
+   }
 
-  <ol>
-    <li>Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>.)</li>
-    <li>Measuring the effect on performance of funk bass players at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 x 10<sup>3</sup> increasing to 3 x 10<sup>4</sup>.)</li>
-    <li>HTML and CSS constructs for representing musical scores.</li>
-  </ol>
+   .grid {
+     margin: 0 auto;
+     padding: 0 20px;
+     max-width: 980px;
+     display: grid;
+     grid-template-columns: 3fr 1fr;
+     gap: 20px;
+   }
 
-  <p>So please can you provide more information on each of these subjects, including how long you’d expect the research to take, required staff and other resources, and anything else you think we’d need to know? Thanks.</p>
+   nav {
+     background-color: #000;
+     padding: .5em;
+     top: 0;
+     position: sticky;
+   }
 
-  <h2>Exotic dance moves</h2>
+   nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+   }
 
-  <p>Yes, you are right! As part of my post-doctorate work, I did study exotic tribal dances. To answer your question, my favourites are as follows, with definitions:</p>
+   nav a {
+     color: #fff;
+     text-decoration: none;
+     padding: .5em 1em;
+   }
 
-  <dl>
-    <dt>Polynesian chicken dance</dt>
-    <dd>A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".</dd>
-    <dt>Icelandic brownian shuffle</dt>
-    <dd>Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.</dd>
-    <dt>Arctic robot dance</dt>
-    <dd>An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.</dd>
-  </dl>
+   .photos {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: grid;
+     gap: 1px;
+     grid-template-columns: 1fr 1fr;
+   }
 
-  <p>For more of my research, see my <a href="http://www.universityofawesome.com/dance">exotic dance research page</a>.</p>
+   .feature {
+       width: 200px;
+       float: left;
+       margin: 0 20px 20px 0;
+   }
+ </style>
+</body>
 
-  <p>Yours sincerely,</p>
-  <p>Dr Eleanor Gaye</p>
-
-      <div class="footer-info">
-        <p>University of Awesome motto: "Be awesome to each other." —<i> The memoirs of Bill S Preston, Esq</i></p>
-
-    </body>
-    </html>
-
- 
-
-
-
-
-  
-
-
-
-
-
-
-
-
+</html>
